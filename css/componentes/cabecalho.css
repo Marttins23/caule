@@ -1,0 +1,30 @@
+@import url('../componentes/cores-e-fontes.css');
+
+.barra-social-cabecalho {
+    /*background-color: rgb(64,119,88);*/
+    background-color: #284c39;
+    color: white;
+    transition: 1s linear;
+}
+
+.barra-social-cabecalho a {
+    color: white;
+    text-decoration: none;
+}
+
+.barra-social-cabecalho a:hover i {
+    transform: scale(1.1);
+}
+
+.barra-social-cabecalho .contato-texto a span{
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.barra-social-cabecalho #icone-telefone-barra-social {
+    font-size: 14px;
+}
+
+.barra-social-cabecalho nav .navbar-nav .nav-item a:hover {
+    background-color: red !important;
+}

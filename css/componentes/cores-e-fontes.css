@@ -1,0 +1,28 @@
+
+@font-face {
+    font-family: 'Ethereal Thin';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Ethereal Thin'), url('../../assets/fonts/Ethereal-Thin.otf') format('otf');
+}
+
+@font-face {
+    font-family: 'Red Hat Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Red Hat Regular'), url('../../assets/fonts/RedHatDisplay-Regular.otf') format('otf');
+}
+
+.fonte-primaria {
+    font-family: 'Ethereal Thin';
+    font-weight: 500;
+}
+
+.fonte-secundaria {
+    font-family: 'Red Hat Regular';
+    font-weight: 500;
+}
+
+.tamanho-medio {
+    font-size: 20px;
+}
