@@ -1,3 +1,19 @@
+:root {
+    --verde-principal-1: #259c6b;
+    --verde-principal-2: #1c7b55;
+    --verde-principal-3: #166145;
+    --verde-principal-4: #284c39;
+    --verde-secundario-1: #0ac28d;
+    --verde-secundario-2: #02b288;
+    --marrom-principal-1: #fdac85;
+    --marrom-principal-2: #e49973;
+    --marrom-principal-3: #cf8a63;
+    --marrom-principal-4: #a67e5c;
+    --marrom-secundario-1: #ff7458;
+    --marrom-secundario-2: #ff6844;
+    --marrom-secundario-3: #ec613a;
+    --marrom-secundario-4: #ad5d3a;
+}
 
 @font-face {
     font-family: 'Ethereal Thin';
