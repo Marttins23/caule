@@ -1,0 +1,31 @@
+@import url('../componentes/cores-e-fontes.css');
+
+#rodape {
+    background-color: var(--verde-principal-4);
+    font-family: 'Red Hat Regular';
+}
+
+#rodape a {
+    color: white;
+    text-decoration: none;
+}
+
+#rodape div.div-direitos-reservados {
+    padding: 4px 0;
+    font-family: var(--bs-body-font-family);
+    font-size: 14px;
+    border-top: 1px solid var(--cinza-principal-3);
+    color: var(--cinza-principal-1);
+    box-shadow: 0px -1px 2px var(--cinza-principal-2); 
+}
+
+@media(max-width: 992px) {
+
+    a#link-logo-rodape  {
+        width: 210px;
+    }
+
+    a#link-logo-rodape img {
+        width: 100%;
+    }
+}
