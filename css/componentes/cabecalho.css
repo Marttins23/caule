@@ -24,35 +24,25 @@
     font-size: 14px;
 }
 
-nav ul.navbar-nav li:nth-child(-n+3) a {
-    transition: .2s ease;
+nav ul.navbar-nav a {
+    transition: .2s linear;
 }
 
-nav ul.navbar-nav li:nth-child(-n+3) a:hover {
+nav ul.navbar-nav li a:hover {
     font-weight: bold;
 }
 
-nav ul.navbar-nav #botao-menu-contato a {
-    border-radius: 6px;
-    transition: .2s linear;
-    padding: 0 24px;
-    color: var(--verde-principal-4);
-    border: 2px solid var(--verde-principal-4);
-}
+@media(max-width: 991px) {
 
-nav img #logo-botao-menu {
-    width: 6px;
-}
+    nav ul li.nav-item {
+        border-bottom: 1px solid var(--bs-nav-link-color);
+    }
 
-nav ul.navbar-nav #botao-menu-contato a:hover {
-    transform: scale(1.05);
-    color: white;
-    background-color: var(--verde-principal-4);
 }
 
 @media(min-width: 992px) {
 
-    nav ul.navbar-nav li:nth-last-child(-n+3) {
+    nav ul.navbar-nav li {
         padding-left: 16px;
     }
 
