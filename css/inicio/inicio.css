@@ -1,3 +1,29 @@
 @import url('../componentes/cores-e-fontes.css');
 @import url('../componentes/cabecalho.css');
 @import url('../componentes/rodape.css');
+
+.hero-pagina-inicial, .mask {
+    height: 70vh;
+}
+
+.hero-pagina-inicial {
+    background-image: url(/assets/img/folhas-capa-caule-consultoria-ambiental.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+}
+
+.hero-pagina-inicial .mask {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.hero-pagina-inicial .container .conteudo-hero h1 {
+    font-size: 64px;
+    font-weight: 900;
+}
+
+@media(min-width: 992px) {
+    .hero-pagina-inicial .container .conteudo-hero {
+        max-width: 50%;
+    }
+}
