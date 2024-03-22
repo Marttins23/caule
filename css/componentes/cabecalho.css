@@ -1,9 +1,6 @@
-@import url('../componentes/cores-e-fontes.css');
-
 .barra-social-cabecalho {
     background-color: var(--verde-principal-4);
     color: white;
-    /*transition: 1s linear;*/
 }
 
 .barra-social-cabecalho a {
@@ -25,11 +22,19 @@
 }
 
 nav ul.navbar-nav a {
-    transition: .2s linear;
+    transition: none;
 }
 
 nav ul.navbar-nav li a:hover {
     font-weight: bold;
+}
+
+.navbar-collapse.collapsing {
+    -webkit-transition: height 0.05s;
+    -moz-transition: height 0.05s;
+    -ms-transition: height 0.05s;
+    -o-transition: height 0.05s;
+    transition: height 0.05s;
 }
 
 @media(max-width: 991px) {

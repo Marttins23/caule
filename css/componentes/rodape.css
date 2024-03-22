@@ -1,5 +1,3 @@
-@import url('../componentes/cores-e-fontes.css');
-
 #rodape {
     background-color: var(--verde-principal-4);
     font-family: 'Red Hat Regular';

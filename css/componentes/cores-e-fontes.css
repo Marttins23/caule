@@ -16,6 +16,8 @@
     --cinza-principal-1: #adadad;
     --cinza-principal-2: #afafaf;
     --cinza-principal-3: #6e6e6e;
+    --cinza-700: #616161;
+    --cinza-textos: #7a7a7a;
 }
 
 @font-face {
@@ -35,13 +37,44 @@
 .fonte-primaria {
     font-family: 'Ethereal Thin';
     font-weight: 500;
+    letter-spacing: 1px;
 }
 
 .fonte-secundaria {
     font-family: 'Red Hat Regular';
     font-weight: 500;
+    letter-spacing: 1px;
 }
 
 .tamanho-medio {
     font-size: 20px;
+}
+
+.texto-cinza {
+    color: var(--cinza-textos);
+}
+
+.texto-cinza-principal-2 {
+    color: var(--cinza-principal-2);
+}
+
+.texto-cinza-principal-3 {
+    color: var(--cinza-principal-3);
+}
+
+.texto-verde-principal-3 {
+    color: var(--verde-principal-3);
+}
+
+.fs-18 {
+    font-size: 18px;
+}
+
+.fs-36 {
+    font-size: 36px;
+}
+
+.texto-justificado {
+    text-align: justify;
+    text-justify: inter-word;
 }

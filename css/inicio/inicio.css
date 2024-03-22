@@ -3,7 +3,7 @@
 @import url('../componentes/rodape.css');
 
 .hero-pagina-inicial, .mask {
-    height: 70vh;
+    min-height: 70vh;
 }
 
 .hero-pagina-inicial {
@@ -20,6 +20,11 @@
 .hero-pagina-inicial .container .conteudo-hero h1 {
     font-size: 64px;
     font-weight: 900;
+}
+
+.sobre-nos img {
+    width: 100%;
+    object-fit: cover !important;
 }
 
 @media(min-width: 992px) {
