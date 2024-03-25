@@ -19,7 +19,7 @@ class CardServicos extends HTMLElement {
     divIcon.setAttribute("class", "text-center bg-verde-principal-2 icon-container");
 
     const icon = document.createElement("i");
-    icon.setAttribute("class", `${this.getAttribute("icon-class")} fa-4x text-white p-3 rounded-4`);
+    icon.setAttribute("class", `${this.getAttribute("icon-class")} fa-3x text-white py-2 rounded-4`);
 
     const title = document.createElement("h5");
     title.setAttribute("class", `card-title fonte-primaria fw-bold pt-2 mb-0`);

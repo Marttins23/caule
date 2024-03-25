@@ -31,6 +31,10 @@
     width: 350px;
 }
 
+.servicos .btn-ver-todos:hover {
+    background-color: var(--verde-principal-3);
+}
+
 @media(min-width: 992px) {
     .hero-pagina-inicial .container .conteudo-hero {
         max-width: 50%;
