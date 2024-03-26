@@ -35,6 +35,14 @@
     background-color: var(--verde-principal-3);
 }
 
+.contato * {
+    transition: 0.4s;
+}
+
+.contato a:hover * {
+    transform: scale(1.1);
+}
+
 @media(min-width: 992px) {
     .hero-pagina-inicial .container .conteudo-hero {
         max-width: 50%;
