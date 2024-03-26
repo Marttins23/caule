@@ -1,3 +1,3 @@
 $(function(){
-    $("#rodape").load("/html/componentes/rodape.html");
+    $("#rodape").load("html/componentes/rodape.html");
 });
